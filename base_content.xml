@@ -1,0 +1,63 @@
+<tool id="base_content" name="Analyze Base Pair content of sample DNA" version="0.0.1">
+  <description>from a file</description>
+  <command interpreter="python">base_content.py "${input}" "${out_file1}"
+  </command>
+  <inputs>
+    <param format="txt" name="input" type="data" label="from"/>
+  </inputs>
+  <outputs>
+    <data format_source="input" name="out_file1" metadata_source="input"/>
+  </outputs>
+  <tests>
+    <test>
+      <param name="input" value="test.fasta"/>
+      <output name="out_file1" file="out.put"/>
+    </test>
+  </tests>
+  <help>
+
+**What it does**
+
+This tool analyzes base contents.
+
+-----
+
+**Example**
+
+Input File::
+&gt;SequenceID [organism=Creaturae ficta]
+CCTTTATCTAATCTTTGGAGCATGAGCTGGCATAGTTGGAACCGCCCTCAGCCTCCTCATCCGTGCAGAA
+CTTGGACAACCTGGAACTCTTCTAGGAGACGACCAAATTTACAATGTAATCGTCACTGCCCACGCCTTCG
+TAATAATTTTCTTTATAGTAATACCAATCATGATCGGTGGTTTCGGAAACTGACTAGTCCCACTCATAAT
+CGGCGCCCCCGACATAGCATTCCCCCGTATAAACAACATAAGCTTCTGACTACTTCCCCCATCATTTCTT
+TTACTTCTAGCATCCTCCACAGTAGAAGCTGGAGCAGGAACAGGGTGAACAGTATATCCCCCTCTCGCTG
+GTAACCTAGCCCATGCCGGTGCTTCAGTAGACCTAGCCATCTTCTCCCTCCACTTAGCAGGTGTTTCCTC
+TATCCTAGGTGCTATTAACTTTATTACAACCGCCATCAACATAAAACCCCCAACCCTCTCCCAATACCAA
+ACCCCCCTATTCGTATGATCAGTCCTTATTACCGCCGTCCTTCTCCTACTCTCTCTCCCAGTCCTCGCTG
+CTGGCATTACTATACTACTAACAGACCGAAACCTAAACACTACGTTCTTTGACCCAGCTGGAGGAGGAGA
+CCCAGTCCTGTACCAACACCTCTTCTGATTCTTCGGCCATCCAGAAGTCTATATCCTCATTTTAC
+
+Output File::
+
+&gt;SequenceID [organism=Creaturae ficta]:
+Total Base Pairs: 
+Total Adenosine :
+Total Thymidine :
+Total Guanine   :
+Total Cytidine  :
+Total Uridine   :
+
+AT Ratio        :
+GC Ratio        :
+
+
+
+    </help>
+  <citations>
+    <citation type="bibtex">
+@misc{test_tool,
+  title = {test_tool},
+}
+    </citation>
+  </citations>
+</tool>

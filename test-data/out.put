@@ -1,0 +1,78 @@
+>Seq1 [organism=Carpodacus mexicanus]
+Total Base Pairs:695
+Total Adenosine :173	[24.8921%]
+Total Thymidine :191	[27.4820%]
+Total Guanine   :108	[15.5396%]
+Total Cytidine  :223	[32.0863%]
+Total Uridine   :0	[0.0000%]
+Total Any       :0	[0.0000%]
+
+AT Ratio        :364	[52.3741%]
+GC Ratio        :331	[47.6259%]
+
+
+>Seq2 [organism=Vireo solitarius]
+Total Base Pairs:659
+Total Adenosine :184	[27.9211%]
+Total Thymidine :147	[22.3065%]
+Total Guanine   :113	[17.1472%]
+Total Cytidine  :215	[32.6252%]
+Total Uridine   :0	[0.0000%]
+Total Any       :2	[0.3035%]
+
+AT Ratio        :331	[50.2276%]
+GC Ratio        :328	[49.7724%]
+
+
+>Seq3 [organism=Dendroica tigrina]
+Total Base Pairs:694
+Total Adenosine :173	[24.9280%]
+Total Thymidine :175	[25.2161%]
+Total Guanine   :121	[17.4352%]
+Total Cytidine  :225	[32.4207%]
+Total Uridine   :0	[0.0000%]
+Total Any       :0	[0.0000%]
+
+AT Ratio        :348	[50.1441%]
+GC Ratio        :346	[49.8559%]
+
+
+>Seq4 [organism=Vireo gilvus]
+Total Base Pairs:673
+Total Adenosine :193	[28.6776%]
+Total Thymidine :156	[23.1798%]
+Total Guanine   :115	[17.0877%]
+Total Cytidine  :209	[31.0550%]
+Total Uridine   :0	[0.0000%]
+Total Any       :1	[0.1486%]
+
+AT Ratio        :349	[51.8574%]
+GC Ratio        :324	[48.1426%]
+
+
+>Seq5 [organism=Dendroica castanea]
+Total Base Pairs:693
+Total Adenosine :179	[25.8297%]
+Total Thymidine :170	[24.5310%]
+Total Guanine   :114	[16.4502%]
+Total Cytidine  :230	[33.1890%]
+Total Uridine   :0	[0.0000%]
+Total Any       :1	[0.1443%]
+
+AT Ratio        :349	[50.3608%]
+GC Ratio        :344	[49.6392%]
+
+
+>Seq6 [organism=Vireo gilvus]
+Total Base Pairs:674
+Total Adenosine :191	[28.3383%]
+Total Thymidine :158	[23.4421%]
+Total Guanine   :116	[17.2107%]
+Total Cytidine  :209	[31.0089%]
+Total Uridine   :0	[0.0000%]
+Total Any       :0	[0.0000%]
+
+AT Ratio        :349	[51.7804%]
+GC Ratio        :325	[48.2196%]
+
+
